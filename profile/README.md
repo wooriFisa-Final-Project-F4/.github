@@ -9,8 +9,8 @@
 1화  
 https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/08/19/post06.html  
 2화  
-https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/08/24/post07.html
-3화
+https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/08/24/post07.html  
+3화  
 https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/08/30/post09.html
 
 ## Team F4
