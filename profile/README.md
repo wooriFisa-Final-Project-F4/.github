@@ -6,6 +6,32 @@
 <br>  
 서버의 불안정함이 사용자들에게 피해를 주지 않도록 안정적인 전자상거래 서비스 제공을 위해 서버 이중화와 서비스 사용량에 따른 인프라 관리를 할 수 있도록 도메인을 구축하였습니다.
 
+## 목차
+
+- [🗂 Project](#---project)
+  - [🌐 Domain](#---domain)
+  - [🧩 Architecture](#---architecture)
+    - [System](#system)
+      - [Keep](#keep)
+        - [Event Driven MicroServices (EDM)](#event-driven-microservices--edm-)
+      - [Problem](#problem)
+      - [Try](#try)
+    - [🛠 Stack](#---stack)
+      - [🌐 **Frontend**](#-----frontend--)
+      - [🖥 **Backend**](#-----backend--)
+      - [🔄 **Middleware**](#-----middleware--)
+    - [Infrastructure](#infrastructure)
+      - [Keep](#keep-1)
+      - [Try](#try-1)
+    - [🛠 Stack](#---stack-1)
+      - [🚀 **Deployment**](#-----deployment--)
+      - [☁ **Amazon Web Services**](#----amazon-web-services--)
+  - [📚 Our Story](#---our-story)
+    - [[네 남자와 MSA] - 마이크로서비스 아키텍처 도전기](#-------msa--------------------)
+  - [Team F4](#team-f4)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>목차</a></i></small>
+
 # 🗂 Project
 
 ## 🌐 Domain
@@ -185,12 +211,12 @@ https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B
 
 ## Team F4
 
-| - | 김지운<br>PM(Project Manager) | 김혁준<br>LL(Laugh Leader) | 엄수혁<br>TL(Technical Leader) | 최창환<br>EL(Energizing Leader) |
-| :-: | :-: | :-: | :-: | :-: |
-| - | <img alt="김지운" src="https://github.com/Jimoou/Coding-Test/assets/109801772/6bb24ca5-a368-461a-9886-10fac02e7c20" height="100" width="100"> | <img alt="김혁준" src="https://github.com/Jimoou/Coding-Test/assets/109801772/8390ed2c-aef6-41cc-a4cb-9f57bc899794" height="100" width="100"> | <img alt="엄수혁" src="https://github.com/Jimoou/Coding-Test/assets/109801772/df375954-fd4b-45ce-b363-d792b02c3400" height="100" width="100"> | <img alt="최창환" src="https://github.com/Jimoou/Coding-Test/assets/109801772/1f2582d3-eb46-41a1-a02a-587e2d8a7cd0" height="100" width="100"> |
-| - | [@Jimoou](https://github.com/Jimoou/) | [@rlagurnws](https://github.com/rlagurnws) | [@endlessmomo](https://github.com/endlessmomo) | [@hwan098](https://github.com/hwan098) |
-| - |나비처럼 날아 벌처럼 쏘는 개발자가 되고 싶습니다.|안녕하세요 백엔드 개발자를 꿈꾸는 김혁준입니다. 새로운걸 배우는건 늘 짜릿하네요!|항상 궁금증이 가득한 개발자 엄수혁입니다.|Hello. I’m prince Choi|
-| 기획 | - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석 & 설계 <br> - 아키텍처 도식표 작성 <br> - 깃&깃허브 관리 | - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석 | - MSA 기획 <br> - 서버별 필요 기술 분석 <br> - 요구사항 분석 & 설계 <br> - API 기능 정의 & 순서도 작성 <br> - 발생할 수 있는 이슈 사전 정리 | - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석 |
-| 설계 | - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - 인프라 설계 <br> - 인터페이스 설계 | - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - Jenkins 사용 환경 설계 | - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - 인프라 설계 <br> - G/W + Auth 서버 설계 | - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - Rest API 설계 |
-| 개발 | - Kafka를 이용한 발행-구독 서비스 개발 <br> - 경매 상태 업데이트 서비스 개발 <br> - AWS SES와 연동된 이메일 서비스 개발 <br> - 결제 요청 서비스와 Kafka 연결 <br> - 마이크로 서비스 배포와 미들웨어(Redis, Kafka) 배포 <br> - AWS 서비스 활용 <br> - 웹사이트(프론트엔드) 개발 <br> - 타 서버 지원 | - Kafka를 이용한 입찰 서비스 개발 <br> - Jenkins 이용한 CI/CD 구현 | - DML, DDL 정의 <br> - G/W 개발 <br> - 인증 서버 개발 <br> - 은행 Mock 서버 개발 <br> - 결제 요청 서버 개발 <br> - 이메일 인증 서버 및 Redis 활용 인증 코드 개발 <br> - S3 연동 및 이미지 업로드 <br> - 리팩토링 및 타 서버 지원 | - 상품 서버 개발 <br> - AWS S3 를 이용한 이미지 데이터 관리 <br> - Jenkins 이용한 CI/CD 구현 |
-| 테스트 | - 배포 환경 테스트 <br> - AutoScaling 테스트 <br> - 구현 서비스 테스트 | - 배포 환경 테스트 <br> - Jenkins CI/CD 테스트 | - 전체 테스트 시나리오 개발 <br> - Postman을 통한 테스트 <br> - 서버 Junit을 통한 단위테스트 <br> - 배포 환경 테스트 | - Postman을 통한 테스트 <br> - 배포 환경 테스트 |
+|   -    |                                                                                                                                   김지운<br>PM(Project Manager)                                                                                                                                    |                                                          김혁준<br>LL(Laugh Leader)                                                           |                                                                                                  엄수혁<br>TL(Technical Leader)                                                                                                  |                                                        최창환<br>EL(Energizing Leader)                                                        |
+| :----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
+|   -    |                                                                           <img alt="김지운" src="https://github.com/Jimoou/Coding-Test/assets/109801772/6bb24ca5-a368-461a-9886-10fac02e7c20" height="100" width="100">                                                                            | <img alt="김혁준" src="https://github.com/Jimoou/Coding-Test/assets/109801772/8390ed2c-aef6-41cc-a4cb-9f57bc899794" height="100" width="100"> |                                          <img alt="엄수혁" src="https://github.com/Jimoou/Coding-Test/assets/109801772/df375954-fd4b-45ce-b363-d792b02c3400" height="100" width="100">                                           | <img alt="최창환" src="https://github.com/Jimoou/Coding-Test/assets/109801772/1f2582d3-eb46-41a1-a02a-587e2d8a7cd0" height="100" width="100"> |
+|   -    |                                                                                                                               [@Jimoou](https://github.com/Jimoou/)                                                                                                                                |                                                  [@rlagurnws](https://github.com/rlagurnws)                                                   |                                                                                          [@endlessmomo](https://github.com/endlessmomo)                                                                                          |                                                    [@hwan098](https://github.com/hwan098)                                                     |
+|   -    |                                                                                                                         나비처럼 날아 벌처럼 쏘는 개발자가 되고 싶습니다.                                                                                                                          |                               안녕하세요 백엔드 개발자를 꿈꾸는 김혁준입니다. 새로운걸 배우는건 늘 짜릿하네요!                                |                                                                                            항상 궁금증이 가득한 개발자 엄수혁입니다.                                                                                             |                                                            Hello. I’m prince Choi                                                             |
+|  기획  |                                                                                           - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석 & 설계 <br> - 아키텍처 도식표 작성 <br> - 깃&깃허브 관리                                                                                           |                                             - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석                                             |                                           - MSA 기획 <br> - 서버별 필요 기술 분석 <br> - 요구사항 분석 & 설계 <br> - API 기능 정의 & 순서도 작성 <br> - 발생할 수 있는 이슈 사전 정리                                            |                                             - MSA 기획 <br> - 필요 기술 분석 <br> - 요구사항 분석                                             |
+|  설계  |                                                                                                     - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - 인프라 설계 <br> - 인터페이스 설계                                                                                                     |                                - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - Jenkins 사용 환경 설계                                 |                                                                 - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - 인프라 설계 <br> - G/W + Auth 서버 설계                                                                  |                                     - 데이터 베이스 설계 <br> - 시스템 아키텍처 설계 <br> - Rest API 설계                                     |
+|  개발  | - Kafka를 이용한 발행-구독 서비스 개발 <br> - 경매 상태 업데이트 서비스 개발 <br> - AWS SES와 연동된 이메일 서비스 개발 <br> - 결제 요청 서비스와 Kafka 연결 <br> - 마이크로 서비스 배포와 미들웨어(Redis, Kafka) 배포 <br> - AWS 서비스 활용 <br> - 웹사이트(프론트엔드) 개발 <br> - 타 서버 지원 |                                      - Kafka를 이용한 입찰 서비스 개발 <br> - Jenkins 이용한 CI/CD 구현                                       | - DML, DDL 정의 <br> - G/W 개발 <br> - 인증 서버 개발 <br> - 은행 Mock 서버 개발 <br> - 결제 요청 서버 개발 <br> - 이메일 인증 서버 및 Redis 활용 인증 코드 개발 <br> - S3 연동 및 이미지 업로드 <br> - 리팩토링 및 타 서버 지원 |                         - 상품 서버 개발 <br> - AWS S3 를 이용한 이미지 데이터 관리 <br> - Jenkins 이용한 CI/CD 구현                          |
+| 테스트 |                                                                                                               - 배포 환경 테스트 <br> - AutoScaling 테스트 <br> - 구현 서비스 테스트                                                                                                               |                                                - 배포 환경 테스트 <br> - Jenkins CI/CD 테스트                                                 |                                                       - 전체 테스트 시나리오 개발 <br> - Postman을 통한 테스트 <br> - 서버 Junit을 통한 단위테스트 <br> - 배포 환경 테스트                                                       |                                                - Postman을 통한 테스트 <br> - 배포 환경 테스트                                                |
