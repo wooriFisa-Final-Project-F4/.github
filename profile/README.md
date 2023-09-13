@@ -6,31 +6,6 @@
 <br>  
 서버의 불안정함이 사용자들에게 피해를 주지 않도록 안정적인 전자상거래 서비스 제공을 위해 서버 이중화와 서비스 사용량에 따른 인프라 관리를 할 수 있도록 도메인을 구축하였습니다.
 
-## 목차
-
-- [🗂 Project](#---project)
-  - [🌐 Domain](#---domain)
-  - [🧩 Architecture](#---architecture)
-    - [System](#system)
-      - [Keep](#keep)
-        - [Event Driven MicroServices (EDM)](#event-driven-microservices--edm-)
-      - [Problem](#problem)
-      - [Try](#try)
-    - [🛠 Stack](#---stack)
-      - [🌐 **Frontend**](#-----frontend--)
-      - [🖥 **Backend**](#-----backend--)
-      - [🔄 **Middleware**](#-----middleware--)
-    - [Infrastructure](#infrastructure)
-      - [Keep](#keep-1)
-      - [Try](#try-1)
-    - [🛠 Stack](#---stack-1)
-      - [🚀 **Deployment**](#-----deployment--)
-      - [☁ **Amazon Web Services**](#----amazon-web-services--)
-  - [📚 Our Story](#---our-story)
-    - [[네 남자와 MSA] - 마이크로서비스 아키텍처 도전기](#-------msa--------------------)
-  - [Team F4](#team-f4)
-
-
 # 🗂 Project
 
 ## 🌐 Domain
