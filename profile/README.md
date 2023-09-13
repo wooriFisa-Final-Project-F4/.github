@@ -30,7 +30,6 @@
     - [[네 남자와 MSA] - 마이크로서비스 아키텍처 도전기](#-------msa--------------------)
   - [Team F4](#team-f4)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>목차</a></i></small>
 
 # 🗂 Project
 
