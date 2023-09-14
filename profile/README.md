@@ -28,13 +28,13 @@ Site: https://artemoderni.web.app/
 
 저희 `ArteModerni`프로젝트는 `MSA`를 구현하기 위해 `Spring Cloud`에서 제공하는 라이브러리들을 사용했습니다.
 <br>  
-프로젝트의 마이크로 서비스는 [Kafka를 이용해 마이크로 서비스간 비동기 통신](https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/09/03/post11.html)을 하고 있습니다. 프로젝트의 전체적인 디자인은 Kafka를 활용한 EventDriven Architecture로 디자인을 기획했지만 구현 난이도와 프로젝트 기간을 고려하여 Feign통신을 함께 사용하였습니다. 따라서, 마이크로 서비스간 통신은 동기-비동기 방식이 혼합되어 있습니다.
+또, 몇 서비스는 [Kafka를 이용해 마이크로 서비스간 비동기 통신](https://woorifisa-final-project-f4.github.io/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2023/09/03/post11.html)을 하고 있습니다. 프로젝트의 전체적인 디자인은 Kafka를 활용한 EventDriven Architecture로 디자인을 기획했지만 구현 난이도와 프로젝트 기간을 고려하여 Feign통신을 함께 사용하였습니다. 따라서, 마이크로 서비스간 통신은 동기-비동기 방식이 혼합되어 있습니다.
 <br>  
 현재 `Artemoderni ver 0.1.0`은 11개의 서비스로 나누어져 있습니다. 개발을 진행하면서 점진적으로 기능을 분리해나가는 방식을 택했습니다.
 
 #### Problem
 
-마이크로 서비스의 특징은 바로 하나의 마이크로서비스가 하나의 데이터베이스를 지닌다는 것입니다. 이러한 마이크로 서비스의 특징으로 인해, `동시성 제어`, `데이터 동기화`, `데이터의 무결성 보장`와 같은 문제점을 겪고 있습니다. 문제를 극복하기 위해 데이터베이스간 관련성을 낮추고 단순화하였습니다. 따라서, 현재 프로젝트는 서비스가 서로의 데이터베이스에 접근해야하는 일이 최소화 되어 있습니다.
+마이크로 서비스의 특징은 바로 하나의 마이크로서비스가 하나의 데이터베이스를 지닌다는 것입니다. 이러한 마이크로 서비스의 특징으로 인해, `동시성 제어`, `데이터 동기화`, `데이터의 무결성 보장`와 같은 문제점을 겪고 있습니다. 현재는 서로의 데이터를 참조할일이 적게 관련성을 낮추고 단순화하였습니다. 따라서, 현재 프로젝트는 서비스가 서로의 데이터베이스에 접근해야하는 일을 줄였습니다.
 
 #### Try
 
@@ -87,7 +87,7 @@ Site: https://artemoderni.web.app/
 #### 🔄 **Middleware**
 
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/-ConfluentKafka-231F20?logo=apache-kafka&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/-Apache%20Kafka-231F20?logo=apache-kafka&logoColor=white)
 
 ---
 
@@ -163,6 +163,32 @@ Site: https://artemoderni.web.app/
 - **Storage:** Amazon S3, Amazon Relational Database Service (Amazon RDS)
 - **Networking & Content Delivery:** Amazon Route53, Amazon Certificate Manager
 - **Monitoring & Management:** Amazon CloudWatch
+
+---
+
+## 🪣 Database
+
+### User
+
+<img width="677" alt="스크린샷 2023-09-14 오전 11 29 54" src="https://github.com/wooriFisa-Final-Project-F4/.github/assets/109801772/b2ec6285-7705-49b5-84a7-f05d65f779e7">
+
+---
+
+### Product
+
+![스크린샷_2023-09-14_오전_11 30 37-removebg-preview (1)](https://github.com/wooriFisa-Final-Project-F4/.github/assets/109801772/ec22b2d2-aab2-4b20-a1a9-4da150b3a149)
+
+---
+
+### Auction
+
+<img width="839" alt="스크린샷 2023-09-14 오전 11 30 16" src="https://github.com/wooriFisa-Final-Project-F4/.github/assets/109801772/3cb6a036-d20a-4a6d-9d0c-44a98270dbbc">
+
+---
+
+### Woori-Mock
+
+<img width="676" alt="스크린샷 2023-09-14 오전 11 30 58" src="https://github.com/wooriFisa-Final-Project-F4/.github/assets/109801772/13497216-54ed-4254-93ce-007950145e23">
 
 ---
 
