@@ -87,7 +87,7 @@ Site: https://artemoderni.web.app/
 #### 🔄 **Middleware**
 
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/-Confluent&20Kafka-231F20?logo=apache-kafka&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/-ConfluentKafka-231F20?logo=apache-kafka&logoColor=white)
 
 ---
 
