@@ -1,9 +1,8 @@
 # <img src="https://github.com/wooriFisa-Final-Project-F4/.github/assets/109801772/63dc1fe0-15a2-42d6-b05d-1fbf24d5d80e" alt="로고" width="40" heigh="40"/> Arte Moderni Ver.0.1.1 Release(2023.09.20)
 
-## 🛠 Stack
-
-| 🌐 **Frontend**                                     | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white)                                                                                                                                    |
+| 🛠Tech Stack                                         |                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🌐 **Frontend**                                     | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white)                                                                                                                                    |
 | 🖥 **Backend**                                       | ![Java](https://img.shields.io/badge/-Java-007396?logo=Java&logoColor=white) ![SpringBoot](https://img.shields.io/badge/-Springboot-6DB33F?logo=Springboot&logoColor=white) ![SpringCloud](https://img.shields.io/badge/-SpringCloud-6DB33F)                                                                                                                                                               |
 | 🔄 **Middleware**                                   | ![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white) ![Confluent Kafka](https://img.shields.io/badge/-Confluent%20Kafka-231F20?logo=apache-kafka&logoColor=white)                                                                                                                                                                                                               |
 | 🎥 **Monitoring** (Arte Moderni Ver 0.1.1 UPDATE!!) | ![Elastic Search](https://img.shields.io/badge/-ElasticSearch-005571?logo=elastic&logoColor=white) ![Kibana](https://img.shields.io/badge/-Kibana-005571?logo=Kibana&logoColor=white) ![Zipkin](https://img.shields.io/badge/-Zipkin-231F20)                                                                                                                                                               |
@@ -32,8 +31,6 @@ MSA(Micro Service Architecture)로 구현된 서비스를 배포환경에서 테
 <img width="1440" alt="elasticsearch" src="https://github.com/wooriFisa-Final-Project-F4/user-service/assets/109801772/f8fdbb3c-6571-49e3-a843-63746fbb8906">
 
 </details>
-
-<br>
 
 # 🗂 Project
 
